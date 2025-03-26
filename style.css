@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Фонови изображения за различните сцени */
+.apartment-bg {
+    background-image: url('апартамент(gemini).jpg');
+}
+
+.warehouse-bg {
+    background-image: url('склад(gemini).jpg');
+}
+
+.police-bg {
+    background-image: url('полиция(gemini).jpg');
+}
+
+.hospital-bg {
+    background-image: url('психиатрия(gemini).jpg');
+}
+
+.bunker-bg {
+    background-image: url('бункер(gemini).jpg');
+}
+
+/* Контейнерът за съдържанието */
+.container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgba(30, 30, 30, 0.85); /* Полупрозрачен фон за по-добра четимост */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.characters-container {
+    display: flex;
+    justify-content: center; /* Центрира снимките */
+    gap: 20px; /* Разстояние между снимките */
+    flex-wrap: wrap; /* Позволява пренареждане при малки екрани */
+}
+
+.character {
+    text-align: center; /* Центрира текста под снимките */
+}
+
+/* Снимки на героите */
+.character-img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Заглавия */
+h1 {
+    font-size: 28px;
+    color: #ff4444;
+}
+
+h2 {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+/* Текст */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* Навигация */
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ff4444;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #ff4444;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #ff4444;
+    color: black;
+}
